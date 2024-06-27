@@ -1,0 +1,79 @@
+*, 
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+.JUDUL-KITA {
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+}
+
+.JUDUL-0 {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.JUDUL-1 {
+    list-style-type: none;
+    padding: 20px;
+    margin: 3px;
+    color: white;
+    font-size: 20px;
+}
+
+.JUDUL-1 :hover {
+    background-color: blue;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 15px;
+}
+
+.a-JUDUL-1 {
+    color: white;
+    text-decoration: none;
+}
+
+.CONTEN-1 {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-conten-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black; 
+    border-radius: 80px;
+}
+
+.img-conten {
+    width: 200;
+    height: 200;
+}
+
+.FOTER-1 {
+    height: 5vh;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.WLC {
+font-size: 20px;
+color: white;
+}
